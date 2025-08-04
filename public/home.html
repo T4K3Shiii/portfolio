@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="w-full fixed top-0 z-50 backdrop-blur-md bg-white/10 border-b border-white/20 shadow-sm"
+    >
+      <div class="container mx-auto flex justify-between items-center py-5">
+        <div class="flex items-center ms-16">
+          <img
+            src="../img/logo.png"
+            alt="logo"
+            class="w-8 h-9 border-2 border-black bg-white rounded-md"
+          />
+          <span class="font-bold text-2xl">TAY AUNG</span>
+        </div>
+        <ul class="hidden md:flex space-x-16 font-bold me-24">
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="about.html">About Me</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="project.html">Project</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div id="hamburger" class="md:hidden z-20">
+          <i class="bi bi-list text-3xl"></i>
+        </div>
+        <ul
+          id="menu"
+          class="hidden absolute top-0 left-0 bg-[#706f6f] w-full font-bold text-center p-10 space-y-10 rounded-b-3xl"
+        >
+          <li class="hover:text-white">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="about.html">About Me</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="project.html">Project</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- intro section -->
+
+    <div
+      class="min-h-[50vh] lg:h-screen bg-gradient-to-t from-[#989695] to-[#FAFAF9] mt-16 mb-1"
+    >
+      <div class="flex flex-col-reverse md:flex-row">
+        <!-- animated text -->
+        <div
+          class="w-full h-[50vh] md:w-1/2 lg:h-screen flex items-center justify-center"
+        >
+          <div class="lg:w-[400px] lg:h-[500px] w-[350px] h-[300px]">
+            <div class="w-full lg:h-[100px] h-[60px]">
+              <h1 class="lg:text-[48px] font-aclonica text-[35px]">
+                Hi There, I'm
+              </h1>
+            </div>
+            <div class="w-full lg:h-[100px] h-[60px]">
+              <h1 class="lg:text-[64px] text-[35px] font-aclonica">
+                HTAY AUNG
+              </h1>
+            </div>
+            <div class="w-full lg:h-[100px] h-[60px] flex items-center">
+              <h1
+                id="text"
+                class="lg:text-[40px] text-[35px] font-aclonica"
+              ></h1>
+            </div>
+            <div class="w-full lg:h-[100px] h-[60px]">
+              <h1 class="lg:text-[12px] text-[10px] font-aclonica font-bold">
+                I enjoy designing Website and Digital Marketing.
+              </h1>
+            </div>
+            <div
+              class="w-full lg:h-[100px] h-[60px] flex items-center justify-center md:justify-center"
+            >
+              <button
+                class="lg:w-[203px] lg:h-[56px] w-[150px] h-[40px] rounded-[20px] bg-black flex items-center justify-center text-white hover:border-2 hover:border-white hover:shadow-2xl"
+              >
+                <a class="lg:text-[35px] text-[20px] font-abhaya" href=""
+                  >About Me</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- image -->
+        <div
+          class="w-full md:w-1/2 relative h-[50vh] flex items-center justify-center lg:h-screen"
+        >
+          <img
+            class="h-5/6 object-cover absolute bottom-10 sm:right-[100px] lg:right-[200px] border border-black rounded-[40px] lg:rounded-[162px]"
+            src="../img/banner.png"
+            alt="banner"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- recent project -->
+    <!-- Heading -->
+    <div class="w-full py-6 flex items-center justify-center">
+      <h3 class="font-aclonica font-bold text-xl md:text-2xl">
+        Some of my projects
+      </h3>
+    </div>
+
+    <!-- Projects Container -->
+    <div class="w-full flex justify-center px-4">
+      <div
+        class="w-full max-w-6xl flex flex-col md:flex-row items-center md:justify-between gap-6"
+      >
+        <!-- Project Card 1 -->
+        <div
+          class="w-full md:w-[48%] lg:w-[45%] border-2 rounded-[26px] border-black hover:shadow-2xl transition-shadow duration-300"
+        >
+          <div
+            class="w-full aspect-[4/3] rounded-t-[26px] bg-white overflow-hidden"
+          >
+            <img
+              class="object-cover w-full h-full rounded-t-[26px]"
+              src="../img/sms.png"
+              alt="School Management System"
+            />
+          </div>
+          <div
+            class="w-full h-16 rounded-b-[26px] bg-black flex items-center justify-center"
+          >
+            <h3
+              class="font-aclonica font-bold text-sm md:text-base text-white text-center px-2"
+            >
+              SCHOOL MANAGEMENT SYSTEM PROJECT
+            </h3>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div
+          class="w-full md:w-[48%] lg:w-[45%] border-2 rounded-[26px] border-black hover:shadow-2xl transition-shadow duration-300"
+        >
+          <div
+            class="w-full aspect-[4/3] rounded-t-[26px] bg-white overflow-hidden"
+          >
+            <img
+              class="object-cover w-full h-full rounded-t-[26px]"
+              src="../img/fashion.png"
+              alt="Fashion Shop"
+            />
+          </div>
+          <div
+            class="w-full h-16 rounded-b-[26px] bg-black flex items-center justify-center"
+          >
+            <h3
+              class="font-aclonica font-bold text-sm md:text-base text-white text-center px-2"
+            >
+              FASHION SHOP E-COMMERCE WEBSITE
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="w-full px-4 py-6 bg-white mt-10">
+      <div class="w-full flex flex-col md:flex-row md:h-[250px]">
+        <!-- Left section -->
+        <div
+          class="w-full md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0"
+        >
+          <div
+            class="w-full md:w-[60%] flex items-center flex-col font-bold space-y-4"
+          >
+            <h2 class="text-[18px] font-abhaya">Contact</h2>
+            <h3 class="text-[18px] font-abhaya md:text-base">
+              htaya2852003@gmail.com
+            </h3>
+            <h3 class="font-abhaya text-[18px] md:text-base">07091243854</h3>
+          </div>
+        </div>
+
+        <!-- Right section -->
+        <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+          <div
+            class="w-full md:w-[60%] flex items-center flex-col font-bold space-y-4"
+          >
+            <h2 class="text-[18px] font-abhaya">
+              <a href="home.html">Home</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="about.html">About me</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="project.html">Project</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="contact.html">Contact Us</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom section -->
+      <div
+        class="w-full mt-6 flex justify-center font-bold text-center text-sm md:text-base"
+      >
+        <h2>© 2025 HTAY AUNG. All rights reserved.</h2>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="autotyping.js"></script>
+  </body>
+</html>

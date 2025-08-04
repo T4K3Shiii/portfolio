@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="w-full fixed top-0 z-50 backdrop-blur-md bg-white/10 border-b border-white/20 shadow-sm"
+    >
+      <div class="container mx-auto flex justify-between items-center py-5">
+        <div class="flex items-center ms-16">
+          <img
+            src="../img/logo.png"
+            alt="logo"
+            class="w-8 h-9 border-2 border-black bg-white rounded-md"
+          />
+          <span class="font-bold text-2xl">TAY AUNG</span>
+        </div>
+        <ul class="hidden md:flex space-x-16 font-bold me-24">
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="about.html">About Me</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="project.html">Project</a>
+          </li>
+          <li class="hover:text-white hover:text-stroke-black">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div id="hamburger" class="md:hidden z-20">
+          <i class="bi bi-list text-3xl"></i>
+        </div>
+        <ul
+          id="menu"
+          class="hidden absolute top-0 left-0 bg-[#706f6f] w-full font-bold text-center p-10 space-y-10 rounded-b-3xl"
+        >
+          <li class="hover:text-white">
+            <a href="home.html">Home</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="about.html">About Me</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="project.html">Project</a>
+          </li>
+          <li class="hover:text-white">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- content -->
+
+    <div class="w-full h-[100px] flex items-center justify-center mt-[80px]">
+      <h2 class="font-abhaya md:font-extrabold font-bold text-xl">
+        MY PROJECT /私のプロジェクト
+      </h2>
+    </div>
+    <div class="w-full h-[40px] flex items-center justify-center">
+      <h2 class="font-abhaya md:text-xl font-bold">
+        Here are some works I have designed and developed
+      </h2>
+    </div>
+    <!-- project  -->
+
+    <!-- project intro -->
+    <div class="w-full h-[30px] flex justify-start items-center mt-5">
+      <h2
+        class="font-abhaya md:text-2xl font-2xl font-extrabold lg:ps-[140px] ps-4"
+      >
+        School Management System Website -Team Project
+      </h2>
+    </div>
+    <!-- Project Image and Description -->
+    <div
+      class="w-full flex flex-col md:flex-row mx-auto justify-center gap-6 mt-10 px-4"
+    >
+      <div
+        class="md:w-[45%] w-full aspect-[16/9] md:aspect-auto bg-black min-h-[300px] md:h-[400px]"
+      >
+        <img src="../img/sms.png" alt="" class="w-full h-full object-cover" />
+      </div>
+      <div class="md:w-[35%] w-full min-h-[300px] md:h-[400px]">
+        <div class="w-full h-2/3 flex items-center justify-center">
+          <p class="w-[80%] lg:text-[1.2rem] font-semibold">
+            This School Management System is a web-based platform built with
+            Node.js and Tailwind CSS, designed to enhance communication and
+            streamline operations between students, parents, teachers, and
+            school staff. It features role-based access, allowing users to
+            manage profiles, access academic data, share learning materials,
+            track student progress, and participate in school activities
+            efficiently.
+          </p>
+        </div>
+        <div
+          class="w-full lg:h-[100px] h-[60px] flex items-center justify-start md:justify-start md:mt-10 ps-10"
+        >
+          <button
+            class="lg:w-[180px] lg:h-[40px] w-[140px] h-[30px] rounded-[20px] bg-black flex items-center justify-center text-white hover:border-2 hover:border-white hover:shadow-2xl"
+          >
+            <a
+              class="lg:text-[25px] text-[18px] font-abhaya"
+              href="projectDetail.html"
+              >See Design</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- project intro -->
+    <div class="w-full h-[30px] flex justify-start items-center mt-10">
+      <h2
+        class="font-abhaya md:text-2xl font-2xl font-extrabold lg:ps-[140px] ps-4"
+      >
+        E-Commerce Fashion Shop Website
+      </h2>
+    </div>
+    <!-- Project Image and Description -->
+    <div
+      class="w-full flex flex-col-reverse md:flex-row mx-auto justify-center gap-6 mt-10 px-4"
+    >
+      <div class="md:w-[35%] w-full min-h-[300px] md:h-[400px]">
+        <div class="w-full h-2/3 flex items-center justify-center">
+          <p class="w-[80%] lg:text-[1.2rem] font-semibold">
+            T4K3Shi is a men’s fashion e-commerce website built with HTML,
+            Tailwind CSS, JavaScript, PHP, and MySQL. It features category-based
+            product pages, a shopping cart, checkout system, and an admin
+            dashboard for inventory management. The design focuses on clean UI,
+            responsive layout, and a stylish user experience.
+          </p>
+        </div>
+        <div
+          class="w-full lg:h-[100px] h-[60px] flex items-center justify-start md:justify-end md:pe-[60px] md:mt-8 lg:pe-[80px] ps-10"
+        >
+          <button
+            class="lg:w-[180px] lg:h-[40px] w-[140px] h-[30px] rounded-[20px] bg-black flex items-center justify-center text-white hover:border-2 hover:border-white hover:shadow-2xl"
+          >
+            <a
+              class="lg:text-[25px] text-[18px] font-abhaya"
+              href="projectDetail.html"
+              >See Design</a
+            >
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="md:w-[45%] w-full aspect-[16/9] md:aspect-auto bg-black min-h-[300px] md:h-[400px]"
+      >
+        <img
+          src="../img/ecommerce.png"
+          alt=""
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+    <!-- project intro -->
+    <div class="w-full h-[30px] flex justify-start items-center mt-10">
+      <h2
+        class="font-abhaya md:text-2xl font-2xl font-extrabold lg:ps-[140px] ps-4"
+      >
+        Restaurant Website Page Design
+      </h2>
+    </div>
+    <!-- Project Image and Description -->
+    <div
+      class="w-full flex flex-col md:flex-row mx-auto justify-center gap-6 mt-10 px-4"
+    >
+      <div
+        class="md:w-[45%] w-full aspect-[16/9] md:aspect-auto bg-black min-h-[300px] md:h-[400px]"
+      >
+        <img src="../img/food.png" alt="" class="w-full h-full object-cover" />
+      </div>
+      <div class="md:w-[35%] w-full min-h-[300px] md:h-[400px]">
+        <div class="w-full h-2/3 flex items-center justify-center">
+          <p class="w-[80%] lg:text-[1.2rem] font-semibold">
+            FoodFusion is a community-driven culinary website built with PHP,
+            MySQL, JavaScript, and HTML, Bootstrap CSS, designed to promote home
+            cooking, recipe sharing, and food education. It features a
+            responsive design with categorized recipes, user submissions,
+            cooking tutorials, and educational resources on culinary and
+            environmental topics.
+          </p>
+        </div>
+        <div
+          class="w-full lg:h-[100px] h-[60px] flex items-center justify-start md:justify-start md:mt-10 ps-10"
+        >
+          <button
+            class="lg:w-[180px] lg:h-[40px] w-[140px] h-[30px] rounded-[20px] bg-black flex items-center justify-center text-white hover:border-2 hover:border-white hover:shadow-2xl"
+          >
+            <a
+              class="lg:text-[25px] text-[18px] font-abhaya"
+              href="projectDetail.html"
+              >See Design</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <div class="w-full px-4 py-6 bg-white mt-10">
+      <div class="w-full flex flex-col md:flex-row md:h-[250px]">
+        <!-- Left section -->
+        <div
+          class="w-full md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0"
+        >
+          <div
+            class="w-full md:w-[60%] flex items-center flex-col font-bold space-y-4"
+          >
+            <h2 class="text-[18px] font-abhaya">Contact</h2>
+            <h3 class="text-[18px] font-abhaya md:text-base">
+              htaya2852003@gmail.com
+            </h3>
+            <h3 class="font-abhaya text-[18px] md:text-base">07091243854</h3>
+          </div>
+        </div>
+
+        <!-- Right section -->
+        <div class="w-full md:w-1/2 flex justify-center md:justify-start">
+          <div
+            class="w-full md:w-[60%] flex items-center flex-col font-bold space-y-4"
+          >
+            <h2 class="text-[18px] font-abhaya">
+              <a href="home.html">Home</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="about.html">About me</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="project.html">Project</a>
+            </h2>
+            <h2 class="text-[18px] font-abhaya">
+              <a href="contact.html">Contact Us</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom section -->
+      <div
+        class="w-full mt-6 flex justify-center font-bold text-center text-sm md:text-base"
+      >
+        <h2>© 2025 HTAY AUNG. All rights reserved.</h2>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="autotyping.js"></script>
+  </body>
+</html>
